@@ -1,0 +1,7 @@
+- name: Deploy Wordpress and MySQL
+  hosts: 10.10.10.15
+  force_handlers: true
+
+  roles:
+    - wordpress
+    - mysql
