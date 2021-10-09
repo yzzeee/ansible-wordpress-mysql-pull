@@ -30,4 +30,4 @@
     src: '{{ wordpress_setting_file }}.j2'
     dest: '/etc/wordpress/{{ wordpress_setting_file }}'
   notify:
-    - Restart Service
+    - Restart Mysql Service

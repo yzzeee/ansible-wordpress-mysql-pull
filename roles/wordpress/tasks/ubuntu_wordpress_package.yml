@@ -13,4 +13,4 @@
   notify:
     - Link wordpress config
     - Link rewrite module
-    - Restart Service
+    - Restart Apache2 Service

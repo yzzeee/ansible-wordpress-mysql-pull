@@ -1,4 +1,4 @@
-- name: Restart Service
+- name: Restart Mysql Service
   service:
     name: mysql
     state: restarted
