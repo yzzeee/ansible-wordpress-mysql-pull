@@ -1,5 +1,5 @@
 - name: Deploy Wordpress and MySQL
-  hosts: localhost
+  hosts: local
   force_handlers: true
 
   roles:
